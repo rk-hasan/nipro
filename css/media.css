@@ -1,0 +1,658 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/* Start Header */
+	.search{
+	    width: 100%;
+	}
+	.search-btn{
+		width: 40px;
+	}
+	/* End Header */
+	/* Start Slider */
+	.c-indicator{
+		left: 170px;
+    	bottom: -11px;
+    	display: none;
+	}
+	.c-text{
+		padding: 40px 0;
+	}
+	.c-text h1{
+		font-size: 30px;
+		text-align: center;
+	}
+	.c-text p{
+		margin-top: 30px;
+		text-align: center;
+	}
+	.c-text button{
+		width: 200px;
+		display: block;
+		margin: 0 auto;
+	}
+	.control-prev{
+		left: 180px;
+		display: none;
+	}
+	.control-next{
+		left: 305px;
+		display: none;
+	}
+	/* End Slider */
+	/* Start Service */
+	.service{
+		padding: 50px 0;
+	}
+	.divider{
+		display: none;
+	}
+	.ser-text p{
+		margin-top: 30px;
+	}
+	.ser-item{
+		padding-top: 50px;
+	}
+	.item-mar{
+		margin-top: 60px;
+	}
+	/* End Service */
+	/* Start About */
+	.about{
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.ab-p1{
+		margin: 15px 0;
+	}
+	.ab-p2{
+		margin-bottom: 25px;
+	}
+	/* End About */
+	/* Start Work */
+	.work{
+		padding-bottom: 50px;
+	}
+	.work-btn{
+		margin-top: 25px;
+	}
+	.work-btn a{
+		margin-left: 10px;
+	}
+	.work-btn a:hover{
+		outline: 1px solid #333333;
+		outline-offset: 5px;
+	}
+	.work-btn a:focus{
+		outline: 1px solid #333333;
+		outline-offset: 5px;
+	}
+	.w-img{
+		margin-top: 25px;
+	}
+	.overlay, .overlay-icon{
+		opacity: 1;
+	}
+	/* End Work */
+	/* Start Choose */
+	.choose{
+		padding-bottom: 50px;
+	}
+	.choose-text h2{
+		margin-top: 10px;
+		margin-bottom: 60px;
+		font-size: 25px;
+	}
+	.citem{
+		text-align: center;
+	}
+	.c-margin{
+		margin-top: 60px;
+	}
+	.citem p{
+		margin-top: 20px;
+	}
+	/* End Choose */
+	/* Start Team */
+	.teams{
+		padding-bottom: 50px;
+	}
+	.t-text h2{
+		margin-top: 25px;
+		font-size: 25px;
+	}
+	.team-content{
+		margin-top: 25px;
+		text-align: center;
+	}
+	.members-title{
+	  padding: 12px 0 1px 0px;
+	}
+	.s-icon{
+		left: -63px;
+		opacity: 1;
+	}
+	/* End Team */
+	/* Start Priceing */
+	.priceing{
+		padding-bottom: 50px;
+	}
+	.price-list{
+		margin-top: 60px;
+	}
+	/* End Priceing */
+	/* Start Template */
+	.tem-text h2{
+		margin-top: 10px;
+		font-size: 15px;
+		text-align: center;
+	}
+	.tem-btn{
+		text-align: center;
+	}
+	.tem-btn button{
+		width: 120px;
+		height: 40px;
+		margin-top: 10px;
+		font-size: 14px;
+	}	
+	/* End Template */
+	/* Start Testemonial */
+	.test-indicate{
+		width: 240px;
+	    height: 50px;
+	    background-color: #f8f8f8;
+	    border: 1px solid #cccccc;
+	    position: absolute;
+	    top: 820px;
+	    right: 31px;
+	    transform: rotate(0deg);
+	}
+	.test-prev{
+		margin-top: 12px;
+	}
+	.test-next{
+		margin-top: 12px;
+	}	
+	/* End Testemonial */
+	/* Start Contact */
+	.contact{
+		padding-bottom: 50px;
+	}
+	.con-form{
+		margin-top: 0px;
+		padding-bottom: 0px;
+	}
+	.con-form input, .con-form textarea{
+		padding-left: 0px;
+	}
+	.con-form input{
+		margin-top: 15px;
+	}
+	.con-form textarea{
+		height: 80px;
+		margin-top: 15px;
+	}
+	.con-form button{
+		width: 150px;
+		height: 40px;
+		font-size: 14px;
+		margin-top: 18px;
+	}
+	/* End Contact */
+	/* Start Footer */
+	.foot-text{}
+	.foot-text h2{
+		font-family: Lato-Medium;
+		font-weight: 500;
+	}
+	.foot-text p{
+		margin: 15px 0px;
+		color: #ffffff;
+		text-align: center;
+	}
+	.foot-icon a{
+		font-size: 15px;
+	}
+	.foot-icon a i{
+		width: 30px;
+	}
+	.copy-right{
+		margin-top: 40px;
+	}
+	.copy-text{
+		text-align: center;
+	}
+	.copy-text p{
+		margin: 20px 0;
+	}
+	.copy-menu{
+		margin: 10px 0;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	/* End Footer */
+}
+
+/*Small devices (landscape phones, 576px and up)
+*/@media (min-width: 576px) and (max-width: 767.98px) {
+	/* Start Header */
+	.search{
+	    width: 100%;
+	}
+	.search-btn{
+		width: 100%;
+	}
+	/* End Header */
+	/* Start Slider */
+	.c-indicator{
+		left: 160px;
+    	bottom: -11px;
+	}
+	.c-text{
+		padding: 40px 0;
+	}
+	.c-text h1{
+		font-size: 30px;
+		text-align: center;
+	}
+	.c-text p{
+		margin-top: 30px;
+		text-align: center;
+	}
+	.c-text button{
+		width: 200px;
+		display: block;
+		margin: 0 auto;
+	}
+	.control-prev{
+		left: 145px;
+	}
+	.control-next{
+		left: 292px;
+	}
+	/* End Slider */
+	/* Start Service */
+	.service{
+		padding: 50px 0;
+	}
+	.divider{
+		display: none;
+	}
+	.ser-text p{
+		margin-top: 30px;
+	}
+	.ser-item{
+		padding-top: 50px;
+	}
+	.item-mar{
+		margin-top: 60px;
+	}
+	/* End Service */
+	/* Start About */
+	.about{
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.ab-p1{
+		margin: 15px 0;
+	}
+	.ab-p2{
+		margin-bottom: 25px;
+	}
+	/* End About */
+	/* Start Work */
+	.work{
+		padding-bottom: 50px;
+	}
+	.work-btn{
+		margin-top: 25px;
+	}
+	.work-btn a{
+		margin-left: 10px;
+	}
+	.work-btn a:hover{
+		outline: 1px solid #333333;
+		outline-offset: 5px;
+	}
+	.work-btn a:focus{
+		outline: 1px solid #333333;
+		outline-offset: 5px;
+	}
+	.w-img{
+		margin-top: 25px;
+	}
+	.overlay, .overlay-icon{
+		opacity: 1;
+	}
+	/* End Work */
+	/* Start Choose */
+	.choose{
+		padding-bottom: 50px;
+	}
+	.choose-text h2{
+		margin-top: 10px;
+		margin-bottom: 60px;
+		font-size: 25px;
+	}
+	.citem{
+		text-align: center;
+	}
+	.c-margin{
+		margin-top: 60px;
+	}
+	.citem p{
+		margin-top: 20px;
+	}
+	/* End Choose */
+	/* Start Team */
+	.teams{
+		padding-bottom: 50px;
+	}
+	.t-text h2{
+		margin-top: 25px;
+		font-size: 25px;
+	}
+	.team-content{
+		margin-top: 25px;
+		text-align: center;
+	}
+	.members-title{
+	  padding: 12px 0 1px 0px;
+	}
+	.s-icon{
+		top: 245px;
+		left: -63px;
+		opacity: 1;
+	}
+	/* End Team */
+	/* Start Priceing */
+	.priceing{
+		padding-bottom: 50px;
+	}
+	.price-list{
+		margin-top: 60px;
+		text-align: center;
+	}
+	/* End Priceing */
+	/* Start Template */
+	.tem-text h2{
+		margin-top: 10px;
+		font-size: 16px;
+		text-align: center;
+	}
+	.tem-btn{
+		text-align: center;
+	}
+	.tem-btn button{
+		width: 120px;
+		height: 40px;
+		margin-top: 10px;
+		font-size: 14px;
+	}	
+	/* End Template */
+	/* Start Testemonial */
+	.test-indicate{
+		width: 240px;
+	    height: 50px;
+	    background-color: #f8f8f8;
+	    border: 1px solid #cccccc;
+	    position: absolute;
+	    top: 970px;
+		right: 140px;
+	    transform: rotate(0deg);
+	}
+	.test-prev{
+		margin-top: 12px;
+	}
+	.test-next{
+		margin-top: 12px;
+	}	
+	/* End Testemonial */
+	/* Start Contact */
+	.contact{
+		padding-bottom: 50px;
+	}
+	.con-form{
+		margin-top: 0px;
+		padding-bottom: 0px;
+	}
+	.con-form input, .con-form textarea{
+		padding-left: 0px;
+	}
+	.con-form input{
+		margin-top: 15px;
+	}
+	.con-form textarea{
+		height: 80px;
+		margin-top: 15px;
+	}
+	.con-form button{
+		width: 150px;
+		height: 40px;
+		font-size: 14px;
+		margin-top: 18px;
+	}
+	/* End Contact */
+	/* Start Footer */
+	.copy-right{
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.copy-text p{
+		margin: 15px 0 10px;
+		color: #ffffff;
+	}	
+	.copy-menu{
+		margin: 15px 0 10px;
+	}
+	.foot-text p {
+    	margin: 35px 105px
+	}
+	/* End Footer */
+}
+
+/*Medium devices (tablets, 768px and up)
+*/@media (min-width: 768px) and (max-width: 991.98px) {
+	/* Start Header */
+	.search{
+	    width: 100%;
+	}
+	.search-btn{
+		width: 100%;
+	}
+	/* End Header */
+	/* Start Slider */
+	.c-indicator{
+		left: 225px;
+    	bottom: -11px;
+	}
+	.c-text{
+		padding: 50px 0;
+	}
+	.c-text h1{
+		font-size: 40px;
+		text-align: center;
+	}
+	.c-text p{
+		margin-top: 40px;
+		text-align: center;
+	}
+	.c-text button{
+		width: 200px;
+		display: block;
+		margin: 0 auto;
+	}
+	.control-prev{
+		left: 220px;
+	}
+	.control-next{
+		left: 370px;
+	}
+	/* End Slider */
+	/* Start Service */
+	.service{
+		padding-bottom: 80px;
+	}
+	.divider{
+		margin: 50px auto 0;
+	}
+	.ser-item{
+		padding-top: 95px;
+	}
+	/* End Service */
+	/* Start About */
+	.about{
+		padding-bottom: 80px;
+	}
+	/* End About */
+	/* Start Work */
+	.work{
+		padding-bottom: 80px;
+	}
+	.work-btn{
+		margin-top: 25px;
+	}
+	.work-btn a{
+		margin-left: 10px;
+	}
+	.work-btn a:hover{
+		outline: 1px solid #333333;
+		outline-offset: 5px;
+	}
+	.work-btn a:focus{
+		outline: 1px solid #333333;
+		outline-offset: 5px;
+	}
+	.w-img{
+		margin-top: 25px;
+	}
+	.overlay, .overlay-icon{
+		opacity: 1;
+	}
+	/* End Work */
+	/* Start Choose */
+	.choose{
+		padding-bottom: 80px;
+	}
+	.citem{
+		text-align: center;
+	}
+	.choose-d{
+		margin: 0 auto;
+	}
+	.mar-md{
+		margin-top: 35px;
+	}
+	/* End Choose */
+	/* Start Team */
+	.teams{
+		padding-bottom: 80px;
+	}
+	.s-icon{
+		top: 135px;
+		opacity: 1;
+	}
+	/* End Team */
+	/* Start Priceing */
+	.priceing{
+		padding-bottom: 80px;
+	}
+	.price-list{
+		text-align: center;
+	}
+	/* End Priceing */
+	/* Start Testemonial */
+	.test-indicate{
+		right: -130px;
+	}
+	/* End Testemonial */
+	/* Start Contact */
+	.contact{
+		padding-bottom: 80px;
+	}
+	.con-form{
+		margin-top: 0px;
+		padding-bottom: 0px;
+	}
+	.con-form input{
+		margin-top: 15px;
+	}
+	.con-form textarea{
+		height: 80px;
+		margin-top: 15px;
+	}
+	.con-form button{
+		width: 150px;
+		height: 40px;
+		font-size: 14px;
+		margin-top: 18px;
+	}
+	/* End Contact */
+	/* Start Footer */
+	.foot-text p {
+   		 margin: 35px 195px;
+	}
+	/* End Footer */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* Start Slider */
+	.c-indicator{
+		left: -108px;
+	}
+	/* End Slider */
+	/* Start Team */
+	.members-title{
+	  padding: 12px 0 1px 0px;
+	  text-align: center;
+	}
+	.s-icon{
+		top: 83px;
+	}
+	/* End Team */
+	/* Start Testemonial */
+	.test-indi {
+	    right: 0px;
+	}
+	/* End Testemonial */
+	/* Start Priceing */
+	.b-link button{
+		width: 180px;
+	}
+	/* End Priceing */
+	/* Start Footer */
+	.foot-text p {
+    	margin: 35px 55px;
+	}
+	/* End Footer */
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/* Start testemonial */
+	.test-indi{
+	    top: 33px;
+	    right: -26px;
+	    justify-content: flex-end;
+	}
+	/* End testemonial */
+	/* Footer Start */
+	.foot-text p {
+    	margin: 35px 110px;
+	}
+	/* Footer End */
+	
+}
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	/* Start Slider */
+	.c-indicator{
+		left: -135px;
+	}
+	/* End Slider */
+}
+
+
+
+
